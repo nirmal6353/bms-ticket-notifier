@@ -1,5 +1,8 @@
 name: SpiderMan Ticket Checker
 
+env:
+  STATE_FILE: spiderman_state.json
+
 on:
   schedule:
     # Every 10 minutes
