@@ -1,5 +1,8 @@
 name: Odyssey Ticket Checker
 
+env:
+  STATE_FILE: odyssey_state.json
+
 on:
   schedule:
     # Every 10 minutes
